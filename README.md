@@ -19,6 +19,11 @@
          </ol>
          <br>
          <h3>WORKING:👇</h3>
-         
+         <ol>
+           <li><img src="img/1.png"></li>
+           <li><img src="img/1.png"></li>
+           <li><img src="img/1.png"></li>
+           <li><img src="img/1.png"></li>
+         </ol>  
   </body>
 </html>
