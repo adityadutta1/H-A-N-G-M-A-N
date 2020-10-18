@@ -4,6 +4,9 @@ from collections import Counter
 
 print("""H A N G M A N""")
 for i in range(100):  # loop used for  asking user whether they  wants to play again "H A N G M A N" game or not
+    name=input('enter your name')
+    print('Hello')
+    print(name)
     again = input('Type "play" to play the game, "exit" to quit:')
     if again == "play":  # set the limit_1 to 8 so that user gets 8 chances
         limit_1 = 8
@@ -41,8 +44,10 @@ for i in range(100):  # loop used for  asking user whether they  wants to play a
             if num not in a and num.islower() and size == 1 and val == 1:   # not satisfying previous conditions
                 limit_1 = limit_1 - 1
                 print('No such letter in the word')
+                 print(' think wisely')
+                
                 if a != letter and limit_1 != 0:
-                    print("")
+                    print("You still have few chances left ")
 
             if limit_1 == 0 and a != letter:    # you are not able to guess the right word
                 # print("")
@@ -74,6 +79,7 @@ for i in range(100):  # loop used for  asking user whether they  wants to play a
                 if a == letter:        # you guess the right word before losing all chances
                     # print("")
                     print(f'You guessed the word {a}')
+                    print('CoNgRaTs you survived')
                     print('You survived!')
                     print("")
                     break
